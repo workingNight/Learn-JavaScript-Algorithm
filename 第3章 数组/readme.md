@@ -11,3 +11,21 @@ push、pop、shift、unshift和splice方法
 A-Z  | 65 - 90
 a-z  | 97 - 122
 
+
+
+### 搜索
+indexOf()
+lastIndexOf()
+
+- es6: 
+find()  --- undefined       
+findIndex()   ---  -1
+
+- es7: 
+includes()    true | false
+
+### 输出数组为字符串
+toString()   |   join('')
+
+### 类型数组
+let int16 = new Int16Array(length)
